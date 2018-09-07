@@ -1,2 +1,31 @@
 @import 'bulma/sass/utilities/initial-variables';
 @import 'bulma/bulma';
+
+.navbar {
+    height: 64px;
+}
+
+.f-green {
+    color: #23d160!important; 
+}
+
+.f-red {
+    color: #ff3838!important;
+}
+
+.f-white {
+    color: #fff!important;
+}
+
+.navbar-title {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+/** Utility helpers */
+
+.fixed-box {
+    margin-top: 4rem!important;
+}
